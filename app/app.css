@@ -1,4 +1,7 @@
 /* app css stylesheet */
+body {
+  padding-top: 70px;
+}
 
 .menu {
   list-style: none;
@@ -19,7 +22,34 @@
   display: inline;
 }
 
-.menu > li + li:before {
+.menu > li:before {
   content: "|";
   padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.img-full {
+  width: 100%;
+}
+
+.templates {
+  text-align: center;
+}
+
+.templates img {
+  width: 70%;
+}
+
+.templates a {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.templates .col-md-4 {
+  margin-bottom: 20px;
 }
