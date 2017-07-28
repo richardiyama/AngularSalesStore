@@ -1,5 +1,6 @@
 'use strict';
 
+
 describe('templateStore.view2 module', function() {
 
   beforeEach(module('templateStore.view2'));
