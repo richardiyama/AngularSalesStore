@@ -29,5 +29,6 @@ angular.module('templateStore.templates', ['ngRoute'])
 
 	$scope.setImage = function(image) {
 		$scope.mainImage = image.name;
+	
 	};
 }]);
